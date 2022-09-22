@@ -1,4 +1,4 @@
-document.body.main.addEventListener('input', (e) => e.target.classList.contains('in') ? updateOut(e):0);
+document.querySelector('main').addEventListener('input', (e) => e.target.classList.contains('in') ? updateOut(e) : 0);
 
 function calculate(op, num1, num2) {
     num1 = +num1;
